@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Multibrowser-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="Browsername" value="Chrome"/>
+    <classes>
+      <class name="com.SauceDemo.Version2.TestPackage.TC003_AllProduct_AddToCart">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="VerifyAllProdAddToCart"/>
+        </methods>
+      </class> <!-- com.SauceDemo.Version2.TestPackage.TC003_AllProduct_AddToCart -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="Browsername" value="Firefox"/>
+    <classes>
+      <class name="com.SauceDemo.Version2.TestPackage.TC003_AllProduct_AddToCart">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="VerifyAllProdAddToCart"/>
+        </methods>
+      </class> <!-- com.SauceDemo.Version2.TestPackage.TC003_AllProduct_AddToCart -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Multibrowser-Suite] -->
